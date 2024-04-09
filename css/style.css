@@ -122,7 +122,7 @@ div .text_p{
 /* seconda sezione */
 
 
-section.section_main_due{
+.section_main_due{
     display: flex;
     padding-bottom: 50px;
     background-color: #f6f6f6;
