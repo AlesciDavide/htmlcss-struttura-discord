@@ -71,6 +71,7 @@ section.jumbo{
     line-height: 2rem;
     font-size: 1.5rem;
     color: white;
+    width: 90%;
 
 }
 
@@ -84,7 +85,7 @@ div button{
 }
 
 
-/* prima sezione  */
+/* prima sezione e terza */
 
 div h2{
     font-size: 3.4rem;
@@ -139,4 +140,49 @@ section.section_main_due{
     display: flex;
     padding: 20px 0 20px 20px;
 
+}
+
+/* quarta sezione del main */
+
+section.main_botton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    background-color: #f6f6f6;
+}
+
+.main_botton div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 60px 20px 60px;
+    justify-content: center;
+    width: 75%;
+}
+
+.main_botton img{
+    width: 80%;
+    
+}
+
+.section_quattro_p{
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px 10px 40px;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.main_botton h3{
+    font-size: 2rem;
+}
+.main_botton button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #7289da;
+    margin: 50px 0 100px 0;
 }
