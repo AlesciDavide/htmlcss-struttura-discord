@@ -150,6 +150,9 @@ section.main_botton{
     align-items: center;
     padding-top: 150px;
     background-color: #f6f6f6;
+/*     background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: auto; */
 }
 
 .main_botton div{
@@ -177,6 +180,10 @@ section.main_botton{
 
 .main_botton h3{
     font-size: 2rem;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 50px 0 50px;
 }
 .main_botton button{
     margin-right: 1rem;
@@ -185,6 +192,8 @@ section.main_botton{
     border: none;
     background-color: #7289da;
     margin: 50px 0 100px 0;
+    font-size: 1.3rem;
+    color: white;
 }
 
 
@@ -210,7 +219,7 @@ h2.color_footer_gr{
 .main_footer{
     display: flex;
     justify-content:space-evenly;
-    padding: 5% 2% 2% 5%;
+    padding: 5% 2% 2% 10%;
     align-items: flex-start;
 }
 
@@ -240,10 +249,18 @@ p img{
     padding-top: 10px;
 }
 
+hr{
+    background-color: #23272a;
+    margin: 0 10%;
+}
+
 /* secondo footer */
+
 
 .second_footer{
     display: flex;
+    justify-content: space-between;
+    padding: 20px 10% 50px 10%;
 }
 
 .second_footer button{
@@ -252,5 +269,4 @@ p img{
     border-radius: 30px;
     border: none;
     background-color: #7289da;
-    margin: 50px 0 100px 0;
 }
