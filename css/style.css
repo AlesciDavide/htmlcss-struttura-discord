@@ -42,7 +42,7 @@ button{
 
 
 
-
+/* jumbo */
 
 
 section.jumbo{
@@ -51,7 +51,7 @@ section.jumbo{
     flex-direction: column;
     align-items: center;
     align-self: stretch;
-    padding: 120px 15% 120px 20%;
+    padding: 120px 20% 120px 20%;
     background-image: url(../img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -81,4 +81,39 @@ div button:last-child{
 }
 div button{
     font-size: 1.5rem;
+}
+
+
+/* prima sezione  */
+
+div h2{
+    font-size: 3.4rem;
+}
+
+section.section_main{
+    display: flex;
+    padding: 75px;
+
+}
+
+.section_main img{
+    display: flex;
+    width: calc(75% - 75px);
+    height: 500x;
+    padding-left: 150px;
+}
+
+.section_main div{
+    width: 25%;
+    align-content: center;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+div .text_p{
+    padding-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
