@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    background-color: #255ee9;
+    padding: 1.2rem 4rem 1rem 10rem;
+}
+
+.header,
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header button{
+    color: black;
+}
+li{
+    list-style-type: none;
+    list-style: none;
+    margin-right: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+button{
+    margin-right: 1rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+}
+
+
+
+
+
+
+section.jumbo{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20%;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jumbo p{
+    justify-content: center;
+    align-items: center;
+    padding: 50px ;
+}
+
+.jumbo h1{
+    color: white;
+    font-size: 3rem;
+
+}
+
+div button:last-child{
+    background-color: black;
+}
